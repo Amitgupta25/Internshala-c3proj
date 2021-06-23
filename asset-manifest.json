@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Internshala-c3proj/static/css/main.714bf909.chunk.css",
+    "main.js": "/Internshala-c3proj/static/js/main.f78c975b.chunk.js",
+    "main.js.map": "/Internshala-c3proj/static/js/main.f78c975b.chunk.js.map",
+    "runtime-main.js": "/Internshala-c3proj/static/js/runtime-main.44dd5773.js",
+    "runtime-main.js.map": "/Internshala-c3proj/static/js/runtime-main.44dd5773.js.map",
+    "static/js/2.036c868b.chunk.js": "/Internshala-c3proj/static/js/2.036c868b.chunk.js",
+    "static/js/2.036c868b.chunk.js.map": "/Internshala-c3proj/static/js/2.036c868b.chunk.js.map",
+    "static/js/3.28fad912.chunk.js": "/Internshala-c3proj/static/js/3.28fad912.chunk.js",
+    "static/js/3.28fad912.chunk.js.map": "/Internshala-c3proj/static/js/3.28fad912.chunk.js.map",
+    "index.html": "/Internshala-c3proj/index.html",
+    "static/css/main.714bf909.chunk.css.map": "/Internshala-c3proj/static/css/main.714bf909.chunk.css.map",
+    "static/js/2.036c868b.chunk.js.LICENSE.txt": "/Internshala-c3proj/static/js/2.036c868b.chunk.js.LICENSE.txt",
+    "static/media/logo.3b5618bf.png": "/Internshala-c3proj/static/media/logo.3b5618bf.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.44dd5773.js",
+    "static/js/2.036c868b.chunk.js",
+    "static/css/main.714bf909.chunk.css",
+    "static/js/main.f78c975b.chunk.js"
+  ]
+}
