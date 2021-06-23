@@ -1,13 +1,610 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.overall{
+  font-family: 'Telex', sans-serif;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* styling top part  */
+
+.backallcourses{
+
+  max-width: 1200px;
+  margin-left:  auto;
+  margin-right:  auto;
+  font-size: 1.2rem;
+  margin-top: 3em;
+  
 }
+
+.backallcourses a:hover{
+
+  color: black;
+}
+
+header{
+  
+  margin: 0 auto;
+  max-width: 1200px;
+ 
+
+
+}
+.logovalue{
+  font-weight: 900;
+  text-decoration: none;
+  font-size: 1.7rem;
+  color:  black;
+}
+
+.navigation a{
+  font-weight: 600;
+  text-decoration: none;
+  color: grey;
+  font-size: 1.0rem;
+  
+}
+
+.topleftbutton{
+  margin-right: 2em;
+  width: 11.5rem;
+  height: 2rem;
+  border-color:#24a0ed ;
+  background-color: white;
+  border-radius: 0.3rem;
+  font-weight: 650;
+  color: #24a0ed;
+  border-width: 0.13rem;
+  
+}
+
+.topleftbutton:hover{
+
+  box-shadow: -2px -1.5px 12px -1.5px rgba(204, 201, 201, 0.65);
+}
+
+.toprightbutton{
+  margin-right: 2em;
+  width: 11.5rem;
+  height: 2rem;
+  background-color:#24a0ed;
+  border-color:#24a0ed ;
+  border-radius: 0.3rem;
+  font-weight: 650;
+  color: white;
+  border-width: 0.13rem;
+  border: none;
+  
+}
+
+.toprightbutton:hover{
+
+  background-color:#2a8fce ;
+}
+
+.navigation a:hover{
+  color: black;
+}
+
+.logo img{
+  width: 100%;
+  max-width: 3rem;
+  margin-right: 0.7rem;
+  
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.image img{
+  width: 100%;
+  max-width: 13rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.number{
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.subheading{
+
+  color: grey;
+  font-size: 1rem;
+}
+
+
+.startcourse button{
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 0.3rem;
+  border: none;
+  font-size: 1.1rem;
+  
+  
+}
+
+.rightsection{
+  max-width: 40%;
+  border: 1px solid rgb(202, 198, 198);
+  border-width: 0.15em;
+  padding: 2rem;
+  background-color: white;
+}
+
+
+.about{
+
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 5em;
+  
+  
+  
+}
+
+.leftsection{
+  max-width:55% ;
+}
+
+h1{
+  font-size: 4rem;
+}
+
+
+
+P{
+  font-size: 1rem;
+  color: rgb(145, 141, 141);
+}
+
+a{
+  
+  color:rgb(145, 141, 141) ;
+}
+
+.startcourse button:hover{
+  background-color: #404040;
+}
+
+
+.starting{
+
+  padding-top: 5em;
+  padding-bottom: 4.5em;
+}
+
+.leftsection h2{
+
+  font-weight: 400;
+}
+
+/* styling middle part */
+
+
+.cardimage{
+
+   width: 100%;
+  max-width: 17rem; 
+}
+
+.middlepartdescription{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1200px;
+  margin-left:  auto;
+  margin-right:  auto;
+}
+
+.importantcard{
+
+  padding: 40px;
+  width: 23%;
+}
+
+.importantcard:hover{
+  border: 0.0001px solid white;
+  box-shadow: -2px -1.5px 12px -0.5px rgba(204, 201, 201, 0.65);
+}
+
+.progress{
+  width: 100%;
+  height:2px;
+  background-color: rgb(240, 238, 238);
+  
+}
+
+
+  .middlepartdescription1{
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1200px;
+  margin-left:  auto;
+  margin-right:  auto;
+  flex-wrap: wrap;
+  min-width: 300px;
+ 
+
+}
+
+.middleintroduction{
+
+  display: flex;
+  max-width: 1200px;
+  margin-left:  auto;
+  margin-right:  auto;
+  align-items: center;
+  
+  
+
+}
+
+.subintroheading{
+
+  font-weight: 900;
+  font-size: 1.5rem;
+ 
+  
+}
+
+
+.number p{
+  height: 2rem;
+  width: 2rem;
+  font-size: 1rem;
+  border-radius: 50%;
+  background-color:#e5f1f8;
+  color: rgb(133, 197, 197);
+  
+}
+
+.variousparts{
+
+  padding-top: 50px;
+}
+
+.subintro{
+  margin-left: 1rem;
+
+}
+
+.subintrodescription{
+
+  font-size: 1.1rem;
+}
+
+.number p{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+  
+
+
+
+
+/* bottom components */
+
+
+.backcolor{
+
+  background-color: rgb(248, 244, 244);
+  
+}
+
+.previous{
+  text-decoration: none;
+  color: rgb(153, 149, 149);
+ 
+}
+
+h4{
+  font-size: 0.9rem;
+  color: rgb(153, 149, 149);
+  text-decoration: none;
+}
+
+.nextimage img{
+  width: 100%;
+  max-width: 8rem;
+ 
+}
+
+
+.whole{
+  max-width: 800px;
+  margin-left:  auto;
+  margin-right:  auto;
+  padding-top: 4em;
+  padding-bottom: 9em;
+
+}
+
+h4{
+
+  padding-bottom: 1rem;
+}
+
+.whole h4{
+
+  border-bottom: 1px solid rgb(223, 223, 223);
+}
+
+.footerside{
+  display: flex;
+  width : 49%; 
+  justify-content: space-between; 
+  align-items: center;
+}
+
+ .next-card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} 
+
+.data{
+
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: rgb(153, 149, 149);
+}
+
+.sameclass{
+
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: black
+  
+}
+
+.nextimage{
+  width: 30%;
+}
+
+.nextdata{
+  width: 65%;
+}
+
+
+.top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 1000;
+ 
+}
+
+.headerdiv{
+
+  border-bottom: 1px solid rgb(235, 233, 233);
+  background-color: white;
+  position: fixed ;
+  top: 0;
+  width: 100%;
+}
+
+.navigation a{
+  margin-right: 2rem;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.details{
+  margin-right: 1rem;
+}
+
+.topbutton{
+  margin-right: 1rem;
+}
+
+.values{
+  display: flex;
+  margin-left: 2em;
+  justify-content: space-between;
+
+
+}
+
+.leftvalue , .rightvalue{
+  width: 30%;
+}
+
+/* click effects */
+
+.modal{
+  display: flex;
+  max-width: 1000px;
+  height: 600px;
+  margin: 0 auto;
+  position: relative;
+  top: 10%;
+  z-index: 1000;
+}
+
+.leftmodal{
+  width:50%;
+  background-color: black;
+  color: white;
+}
+
+.rightmodal{
+  width:50%;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.modalheading{
+  font-size: 1.7rem;
+  margin: 0;
+}
+
+.leftmodal{
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+.leftmodal i{
+
+  font-size: 10em;
+  margin-left: 10rem;
+} 
+
+.links p{
+  
+  text-decoration: none;
+  border-radius: 0.5rem;
+  margin-bottom: 1em;
+}
+
+.modallinkfb{
+  background-color: #4267B2;
+  color: white;
+  border: 1px solid #4267B2;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 0.8rem 3rem;
+ 
+  
+}
+
+.modallinkgoogle{
+  border: 1px solid #404040;
+  color: #404040;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 0.8rem 3.35rem;
+  
+  
+  
+}
+
+.modallinkemail{
+  color: #404040;
+  background-color: #dddddd;
+  border: 1px solid #dddddd;
+  margin-bottom: 0;
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 0.8rem 3.7rem;
+ 
+}
+
+.modallinkfb , .modallinkemail , .modallinkgoogle{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.existing{
+  color: #404040;
+}
+
+.existing > a {
+  color: inherit
+}
+
+.overlay{
+  /* display: none; */
+  width: 100%;
+  height: 100%;
+  height:100vh;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(15, 15, 15, 0.9);
+  z-index: 100;
+
+}  
+
+/* effects */
+
+.lockimagecontainer{
+
+  position: relative;
+  z-index: -1;
+
+
+}
+
+.locklayer{
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(15, 15, 15, 0.6);
+  z-index: 1;
+
+}
+
+.lockedimagemessage{
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(175, 116, 116, 0);
+  z-index: 2;
+
+}
+
+.lockedimage{
+
+  opacity: 0;
+  text-align: center;
+  color: white;
+  font: 0.85rem;
+
+}
+
+.importantcard:hover .locklayer *{
+
+  opacity: 0;
+}
+
+.importantcard:hover .lockedimage{
+
+  opacity: 0.9;
+}
+
+
+
+
+
+
+
