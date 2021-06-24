@@ -6,7 +6,7 @@ This website consists of Reactjs components and Material UI is added in it and r
 
 # Description : (Homepage)
 
-Its a basic cloning of Brilliant website home page containing various features using various tools and libraries , it is a short description about the website is all about , main home page consists of introduction various levels and basic content.
+ Its a basic cloning of Brilliant website home page containing various features using various tools and libraries , it is a short description about the website is all about ,     main home page consists of introduction various levels and basic content.
 
 
 # Libraries Information
