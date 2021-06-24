@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# Title : Brilliant Website (Homepage)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Basic Description : 
 
-## Available Scripts
+This website consists of Reactjs components and Material UI is added in it and rest of all the content and code is implimented from scratch.
 
-In the project directory, you can run:
+# Description : (Homepage)
 
-### `npm start`
+Its a basic cloning of Brilliant website home page containing various features using various tools and libraries , it is a short description about the website is all about , main home page consists of introduction various levels and basic content.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Libraries Information
 
-### `npm test`
+Working with Material UI :
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+In the library for using this we have to install Material UI from its website using small steps :
 
-### `npm run build`
+1. Go on the link on Material UI page (@material-ui/icons).
+2. Then copy the code and run in CP.(npm install @material-ui/icons).
+3. Now we can use the Material UI just by importing the required information.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Working with React :
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Firstly installation of node.js
+2. Then installing npm(npm install -g create-react-app).
+3. Adding the file name globally (-g create-react-app).
+4. Creating a file inside to work on the project (npx create-react-app "file name").
+5. For starting of the development server (npm start).
+6. To create build directory with production build (npm run build).
+7. To run on a static server (npm serve -s build).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Basic Structure :
 
-### `npm run eject`
+1. The main file is there in the app.js.
+2. all the components used in this project are there in the component folder.
+3. Images are there in the images folder.
+4. some images are extracted from oustide using functions.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Basic Features : 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+The basic features in this website are as follows:-
+1. Header is sticky in this webpage irrespective the others.
+2. Here in this there is also a feature that if the user click on any level or sign up part a pop up appears which is made by modal.
+3. Various styling is added to it to make the inteface more clear and user-friendly.
+4. Premium videos are locked and by default and are shown when hover on them.
+5. Here in this if we hover on any of the images there is certain link present in them which lead the user to other webpage.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Layout :
 
-## Learn More
+Layout consist of four main parts
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. The header of the whole page at the top represented with - Headerdiv
+2. The introduction part with all the information represented with - About
+3. The part which comprises with all the levels and represented with - Middlepart and Middlepart various similar components.
+4. The bottom part which also comprises of two sub links in it represented with - Footer
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Layout Components :
 
-### Code Splitting
+1. Headerdiv:
+   This div further of three parts in logo and name , the nav-bar and the login sign-up.
+   
+2. About :
+   This component comprises of two sub parts left(theory part) and right(container part).
+   
+3. Middlepart :
+   This component is used multiple time with small changes and diff subscript which contains all the levels and small basic description.
+   
+4. Footer :
+   The footer components consists of two sub parts here also two components are used.
+   
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+     
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
